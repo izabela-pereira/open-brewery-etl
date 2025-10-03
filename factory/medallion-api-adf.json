@@ -1,0 +1,9 @@
+{
+	"name": "medallion-api-adf",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9d9fa3b0-8acb-4f8e-ab67-b4f5d122f93f",
+		"tenantId": "901bf30c-9e8b-4cad-8237-8a6efdf56bba"
+	}
+}
