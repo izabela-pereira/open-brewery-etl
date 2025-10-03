@@ -1,2 +1,2 @@
 # open-brewery-etl
-Repository for Breweries case complete ETL
+Repository for breweries' case complete ETL
