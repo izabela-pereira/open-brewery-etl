@@ -1,0 +1,5 @@
+Observações relacionadas ao uso do Azure Databricks
+
+databricks\cluster.json - Arquivo demonstrando a configuração do cluster criado. 
+Infelizmente não foi possível iniciar o cluster no Azure Databricks utilizando a conta free, 
+portanto, o código foi executado utilizando o Serverless Compute for Notebooks.

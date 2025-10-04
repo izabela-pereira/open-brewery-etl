@@ -1,0 +1,17 @@
+{
+  "data_security_mode": "DATA_SECURITY_MODE_AUTO",
+  "cluster_name": "Open Brewery Compute",
+  "kind": "CLASSIC_PREVIEW",
+  "azure_attributes": {
+    "availability": "SPOT_WITH_FALLBACK_AZURE"
+  },
+  "runtime_engine": "STANDARD",
+  "spark_version": "15.4.x-scala2.12",
+  "node_type_id": "Standard_D4ds_v5",
+  "autotermination_minutes": 30,
+  "is_single_node": false,
+  "autoscale": {
+    "min_workers": 2,
+    "max_workers": 8
+  }
+}
