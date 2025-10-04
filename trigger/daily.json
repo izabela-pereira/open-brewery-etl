@@ -1,0 +1,25 @@
+{
+	"name": "daily",
+	"properties": {
+		"description": "Daily execution",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "OpenBreweryAPI",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2025-10-04T18:37:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
